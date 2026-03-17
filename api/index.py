@@ -83,10 +83,9 @@ client = APIClient()
 def root():
     return {
         "api_endpoint": "ADD ITEMS ACCESS TOKEN TO JWT",
-        "examples": {
-            "using_access": "/get?access=xxx&itemid=211000000&itemid=211000000",
-            "using_jwt": "/get?jwt_token=xxx&itemid=211000000&itemid=211000000"
-        },
+        "examples",
+        "using_access": "/get?access=xxx&itemid=211000000&itemid=211000000",
+        "using_jwt": "/get?jwt_token=xxx&itemid=211000000&itemid=211000000",
         "message": "API BY RIO 𝕏 LUANORI⚡",
         "status": "running",
         "usage": "Use /get with either 'access' (to convert) or 'jwt_token' (direct) plus 15 itemid parameters."
